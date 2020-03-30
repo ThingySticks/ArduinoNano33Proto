@@ -4200,14 +4200,14 @@ Standard 11x14 US Ledger frame</description>
 <wire x1="41" y1="0" x2="44" y2="0" width="0" layer="20"/>
 </package>
 <package name="ARDUINO_NANO_33">
-<wire x1="0" y1="-2.54" x2="0" y2="-40.64" width="0" layer="20"/>
-<wire x1="0" y1="-40.64" x2="2.54" y2="-43.18" width="0" layer="20" curve="90"/>
-<wire x1="2.54" y1="-43.18" x2="15.24" y2="-43.18" width="0" layer="20"/>
-<wire x1="15.24" y1="-43.18" x2="17.78" y2="-40.64" width="0" layer="20" curve="90"/>
-<wire x1="17.78" y1="-40.64" x2="17.78" y2="-2.54" width="0" layer="20"/>
-<wire x1="17.78" y1="-2.54" x2="15.24" y2="0" width="0" layer="20" curve="90"/>
-<wire x1="15.24" y1="0" x2="2.54" y2="0" width="0" layer="20"/>
-<wire x1="2.54" y1="0" x2="0" y2="-2.54" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-40.64" width="0.3048" layer="21"/>
+<wire x1="0" y1="-40.64" x2="2.54" y2="-43.18" width="0.3048" layer="21" curve="90"/>
+<wire x1="2.54" y1="-43.18" x2="15.24" y2="-43.18" width="0.3048" layer="21"/>
+<wire x1="15.24" y1="-43.18" x2="17.78" y2="-40.64" width="0.3048" layer="21" curve="90"/>
+<wire x1="17.78" y1="-40.64" x2="17.78" y2="-2.54" width="0.3048" layer="21"/>
+<wire x1="17.78" y1="-2.54" x2="15.24" y2="0" width="0.3048" layer="21" curve="90"/>
+<wire x1="15.24" y1="0" x2="2.54" y2="0" width="0.3048" layer="21"/>
+<wire x1="2.54" y1="0" x2="0" y2="-2.54" width="0.3048" layer="21" curve="90"/>
 <pad name="26" x="16.51" y="-13.97" drill="1" diameter="1.778" rot="R270"/>
 <pad name="25" x="16.51" y="-16.51" drill="1" diameter="1.778" rot="R270"/>
 <pad name="24" x="16.51" y="-19.05" drill="1" diameter="1.778" rot="R270"/>
@@ -4255,7 +4255,7 @@ Standard 11x14 US Ledger frame</description>
 <text x="-0.635" y="-36.195" size="1.016" layer="25" ratio="15" rot="R180">GND</text>
 <text x="-0.635" y="-38.735" size="1.016" layer="25" ratio="15" rot="R180">VIN</text>
 <text x="18.415" y="-40.005" size="1.016" layer="25" ratio="15">TX-&gt;</text>
-<text x="18.415" y="-37.465" size="1.016" layer="25" ratio="15">RX &lt;-</text>
+<text x="18.415" y="-37.465" size="1.016" layer="25" ratio="15">RX&lt;-</text>
 <text x="18.415" y="-34.925" size="1.016" layer="25" ratio="15">RST</text>
 <text x="18.415" y="-32.385" size="1.016" layer="25" ratio="15">GND</text>
 <text x="18.415" y="-29.845" size="1.016" layer="25" ratio="15">D2</text>
@@ -4267,8 +4267,8 @@ Standard 11x14 US Ledger frame</description>
 <text x="18.415" y="-14.605" size="1.016" layer="25" ratio="15">D8</text>
 <text x="18.415" y="-12.065" size="1.016" layer="25" ratio="15">D9~</text>
 <text x="18.415" y="-9.525" size="1.016" layer="25" ratio="15">D10~</text>
-<text x="18.415" y="-6.985" size="1.016" layer="25" ratio="15">D11/MOSI</text>
-<text x="18.415" y="-4.445" size="1.016" layer="25" ratio="15">D12/MISO</text>
+<text x="18.415" y="-6.985" size="1.016" layer="25" ratio="15">D11</text>
+<text x="18.415" y="-4.445" size="1.016" layer="25" ratio="15">D12</text>
 <text x="2.54" y="-3.175" size="1.016" layer="26" ratio="15" rot="MR180">D13</text>
 <text x="2.54" y="-5.715" size="1.016" layer="26" ratio="15" rot="MR180">3v3</text>
 <text x="2.54" y="-8.255" size="1.016" layer="26" ratio="15" rot="MR180">ARef</text>
@@ -4286,7 +4286,7 @@ Standard 11x14 US Ledger frame</description>
 <text x="-0.635" y="-38.735" size="1.016" layer="25" ratio="15" rot="R180">VIN</text>
 <text x="2.54" y="-38.735" size="1.016" layer="26" ratio="15" rot="MR180">VIN</text>
 <text x="15.24" y="-40.005" size="1.016" layer="26" ratio="15" rot="MR0">TX-&gt;</text>
-<text x="15.24" y="-37.465" size="1.016" layer="26" ratio="15" rot="MR0">RX &lt;-</text>
+<text x="15.24" y="-37.465" size="1.016" layer="26" ratio="15" rot="MR0">RX&lt;-</text>
 <text x="15.24" y="-34.925" size="1.016" layer="26" ratio="15" rot="MR0">RST</text>
 <text x="15.24" y="-32.385" size="1.016" layer="26" ratio="15" rot="MR0">GND</text>
 <text x="15.24" y="-29.845" size="1.016" layer="26" ratio="15" rot="MR0">D2</text>
@@ -4300,6 +4300,47 @@ Standard 11x14 US Ledger frame</description>
 <text x="15.24" y="-9.525" size="1.016" layer="26" ratio="15" rot="MR0">D10~</text>
 <text x="15.24" y="-6.985" size="1.016" layer="26" ratio="15" rot="MR0">D11/MOSI</text>
 <text x="14.605" y="-4.445" size="1.016" layer="26" ratio="15" rot="MR0">D12/MISO</text>
+</package>
+<package name="CAMDENBOSS_ENCLOSURE_110X60_WIDE_EXTENDED_2">
+<wire x1="0.1" y1="1.1" x2="0" y2="79" width="0" layer="20"/>
+<wire x1="0" y1="79" x2="2" y2="81" width="0" layer="20" curve="-90"/>
+<wire x1="44" y1="81" x2="46" y2="79" width="0" layer="20" curve="-90"/>
+<wire x1="46" y1="79" x2="45.9" y2="1.2" width="0" layer="20"/>
+<wire x1="45.9" y1="1.2" x2="43.9" y2="-1" width="0" layer="20" curve="-90"/>
+<wire x1="2.1" y1="-1" x2="0.1" y2="1.1" width="0" layer="20" curve="-90"/>
+<wire x1="7" y1="88" x2="9" y2="90" width="0" layer="20" curve="-90"/>
+<wire x1="9" y1="90" x2="37" y2="90" width="0" layer="20"/>
+<wire x1="37" y1="90" x2="39" y2="88" width="0" layer="20" curve="-90"/>
+<wire x1="39" y1="83" x2="41" y2="81" width="0" layer="20" curve="90"/>
+<wire x1="5" y1="81" x2="7" y2="83" width="0" layer="20" curve="90"/>
+<wire x1="7" y1="83" x2="7" y2="88" width="0" layer="20"/>
+<wire x1="39" y1="83" x2="39" y2="88" width="0" layer="20"/>
+<wire x1="2" y1="81" x2="5" y2="81" width="0" layer="20"/>
+<wire x1="41" y1="81" x2="44" y2="81" width="0" layer="20"/>
+<hole x="43" y="2.5" drill="2.8"/>
+<hole x="43" y="77.5" drill="2.8"/>
+<hole x="3" y="77.5" drill="2.8"/>
+<hole x="3" y="2.5" drill="2.8"/>
+<wire x1="23" y1="100" x2="23" y2="-20" width="0" layer="49"/>
+<wire x1="-7" y1="95" x2="53" y2="95" width="0" layer="49"/>
+<wire x1="53" y1="95" x2="53" y2="-15" width="0" layer="49"/>
+<wire x1="53" y1="-15" x2="-7" y2="-15" width="0" layer="49"/>
+<wire x1="-7" y1="-15" x2="-7" y2="95" width="0" layer="49"/>
+<circle x="44.5" y="86.75" radius="4" width="0" layer="49"/>
+<circle x="44.5" y="-6.75" radius="4" width="0" layer="49"/>
+<circle x="1.5" y="86.75" radius="4" width="0" layer="49"/>
+<circle x="1.5" y="-6.75" radius="4" width="0" layer="49"/>
+<wire x1="9" y1="99.8" x2="9" y2="-20.2" width="0" layer="49"/>
+<wire x1="37" y1="99.4" x2="37" y2="-20.6" width="0" layer="49"/>
+<wire x1="39" y1="-8" x2="37" y2="-10" width="0" layer="20" curve="-90"/>
+<wire x1="37" y1="-10" x2="9" y2="-10" width="0" layer="20"/>
+<wire x1="9" y1="-10" x2="7" y2="-8" width="0" layer="20" curve="-90"/>
+<wire x1="7" y1="-2.9" x2="5" y2="-1" width="0" layer="20" curve="90"/>
+<wire x1="41" y1="-1" x2="39" y2="-2.8" width="0" layer="20" curve="90"/>
+<wire x1="39" y1="-2.8" x2="39" y2="-8" width="0" layer="20"/>
+<wire x1="7" y1="-2.9" x2="7" y2="-8" width="0" layer="20"/>
+<wire x1="5" y1="-1" x2="2.1" y2="-1" width="0" layer="20"/>
+<wire x1="41" y1="-1" x2="43.9" y2="-1" width="0" layer="20"/>
 </package>
 </packages>
 <symbols>
@@ -4352,6 +4393,10 @@ Standard 11x14 US Ledger frame</description>
 </symbols>
 <devicesets>
 <deviceset name="CAMDENBOSS-ENCLOSURE-110X60">
+<description>CamdenBoss Enclosure
+
+MFG: CSACTT002
+Farnell: 2392777</description>
 <gates>
 <gate name="G$1" symbol="CAMDEN_110X60" x="0" y="0"/>
 </gates>
@@ -4369,6 +4414,14 @@ Standard 11x14 US Ledger frame</description>
 <device name="BOTH-EXTENDED-WIDE" package="CAMDENBOSS_ENCLOSURE_110X60_WIDE_EXTENDED">
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+<device name="BOTH-EXTENDED-WIDE-2" package="CAMDENBOSS_ENCLOSURE_110X60_WIDE_EXTENDED_2">
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2392777"/>
+<attribute name="MFG" value="CSACTT002"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -9287,6 +9340,8 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="J33" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="J34" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
 <part name="J35" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
+<part name="J11" library="SparkFun-Connectors" deviceset="CONN_16" device="1X16_NO_SILK"/>
+<part name="J21" library="SparkFun-Connectors" deviceset="CONN_16" device="1X16_NO_SILK"/>
 </parts>
 <sheets>
 <sheet>
@@ -9363,6 +9418,8 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <instance part="J33" gate="G$1" x="-220.98" y="309.88"/>
 <instance part="J34" gate="G$1" x="-241.3" y="312.42" rot="R90"/>
 <instance part="J35" gate="G$1" x="-251.46" y="312.42" rot="R90"/>
+<instance part="J11" gate="G$1" x="378.46" y="241.3"/>
+<instance part="J21" gate="G$1" x="391.16" y="241.3"/>
 </instances>
 <busses>
 </busses>
